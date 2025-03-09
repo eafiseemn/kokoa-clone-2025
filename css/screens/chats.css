@@ -1,0 +1,15 @@
+.chats__notification {
+    display: flex;
+    transform: scale(1.2);
+    text-align: center;
+    align-items: center;
+}
+.chat-preview {
+    max-height: 30px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    text-overflow: ellipsis;
+}

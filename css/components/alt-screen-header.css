@@ -1,0 +1,27 @@
+.alt-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--horizontal-space);
+    padding-top: 35px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.alt-header__title {
+    font-size: 20px;
+    font-weight: 600;
+}
+.alt-header__column:first-child {
+    margin-right: auto;
+}
+.alt-header__column:nth-child(2) {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.alt-header__column:last-child {
+    margin-left: auto;
+}
+.alt-header__column:last-child i {
+    margin-left: 15px;
+}
